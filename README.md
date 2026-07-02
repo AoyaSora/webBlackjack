@@ -26,10 +26,12 @@ ssh -i ~/Downloads/myKey.pem azureuser@10.111.12.123
 
 
 ### 台本
-まずは```
+まずは
+```
 $ sudo apt update
 $ sudo apt upgrade
-```を実行します．
+```
+を実行します．
 これは・apt(Advanced Package Tool)
 Linuxで使われるパッケージ管理システム．パッケージのインストール，アップグレード削除などを簡単に使うためのもの．
 の現在の確認とupdateによって得られた最新情報を元にアップデートを行うものです
