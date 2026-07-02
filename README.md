@@ -22,7 +22,7 @@ ssh -i ~/Downloads/myKey.pem azureuser@10.111.12.123
 ### Ubuntuのアップデートと初期設定
 ```$ sudo apt install```でいろいろな言語の学習環境を導入できる
 
-その後sudo apt install apache2でwebサーバの作成ができる
+その後```$ sudo apt install apache2```でwebサーバの作成ができる
 
 
 ### 台本
