@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ブラックジャック</title>
+    <link rel="stylesheet" href="/public/blackjack.css" />
+</head>
+<body>
+    <div class="container">
+        <h1><span>Blackjack</span></h1>
+        <div class="explanation">
+            <h2>ブラックジャックの説明</h2>
+            <p>ディーラーとプレイヤーのカードが21に近い方が勝ち</p>
+            <p>21より大きくなるとバーストとなり負け</p>
+            <p>1は1または11として扱う</p>
+            <p>10以上は10として扱う</p>
+            <p><span class="button">HIT</span>はカードをもう一枚ドローする</p>
+            <p><span class="button">STAY</span>はそのままの手札で勝負する</p>
+        </div>
+        <div class="dealer_area">
+            <h2>ディーラー</h2>
+            <div id="dealer_cards" class="card_area"></div>
+            <p id="dealer_score"></p>
+        </div>
+
+        <div class="player_area">
+            <h2>あなた</h2>
+            <div id="player_cards" class="card_area"></div>
+            <p id="player_score"></p>
+        </div>
+
+        <div class="buttons">
+            <button id="start">START</button>
+            <button id="hit" class="hidden">HIT</button>
+            <button id="stay" class="hidden">STAY</button>
+            <button id="reset" class="hidden">Next Game</button>
+        </div>
+    </div>
+    <script src="blackjack.js"></script>
+</body>
+</html>
